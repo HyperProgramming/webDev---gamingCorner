@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>gamingCorner</title>
+    <link href="https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/sGame.css">
+</head>
+<body>
+
+    <header>
+        <nav>
+            <div class="logo">snakeGame</div>
+                <ul>
+                    <li><a href="about.html" class="about">About</a></li>
+                    <li><a href="blog.html" class="blog">Blog</a></li>
+                    <li><a class="btn" type="button" href="index.html">Home</a></li>
+                </ul>
+        </nav>
+    </header>
+
+    <div class="gameContainer">
+        <div id="gameWrapper">
+            <div id="scoreBar">
+                <span id="score">Score: 0</span>
+                <span id="highScore">High Score: 0</span>
+            </div>
+            <div id="board"></div>
+            <div id="controls">
+                <button data-dir="ArrowLeft">←</button>
+                <button data-dir="ArrowUp">↑</button>
+                <button data-dir="ArrowRight">→</button>
+                <button data-dir="ArrowDown">↓</button>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+	    <div class="footer-left" style="font-size: 16px;">gamingCorner</div>
+	    <nav>
+		    <a href="Developers_AboutUs.html" style="font-size: 16px; margin-right: 15px;">Meet the Devs!</a>
+		    <a class="btn" type="button" href="index.html">Home</a>
+	    </nav>
+    </footer>
+
+    <script src="js/sGame.js"></script>
+</body>
+</html>
